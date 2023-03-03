@@ -17,6 +17,21 @@ export default function App() {
     })
   );
 
+  function handleAdd(id) {
+    setProductData((prev) => {
+      return prev.map((product) => {
+        if (product.id === id) {
+          return {
+            ...product,
+            buyQty: product.buyQty + 1,
+          };
+        } else {
+          return product;
+        }
+      });
+    });
+  }
+
   console.log(productData);
 
   return (
