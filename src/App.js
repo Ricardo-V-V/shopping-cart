@@ -1,7 +1,15 @@
 import './scss/app.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  return <h1>HOLA MUNDO</h1>;
+  return (
+  <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<h1>Home Page</h1>} />
+    <Route path="/cart" element={<h1>Cart Page</h1>} />
+   </Routes>
+  </BrowserRouter>
+  );
 }
 
 export default App;
