@@ -1,0 +1,22 @@
+@use '../abstracts' as a;
+
+.footer {
+  color: var(--color-white);
+
+  &__nav {
+    background-color: var(--color-primary);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  &__link {
+    color: inherit;
+  }
+
+  &__copyright {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    background-color: var(--color-primary-medium);
+    font-size: 1.2rem;
+  }
+}

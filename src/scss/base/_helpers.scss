@@ -3,12 +3,13 @@
 .container {
   max-width: 1204px;
   margin: 0 auto;
-  padding: 6.4rem 2.4rem;
+  padding: 0 2.4rem;
+}
 
-  @include a.breakpoint(md) {
-    padding-top: 12.8rem;
-    padding-bottom: 12.8rem;
-  }
+.page-container {
+  flex-grow: 1;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .text-center {

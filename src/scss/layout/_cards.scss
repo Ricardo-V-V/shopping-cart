@@ -1,0 +1,30 @@
+@use '../abstracts' as a;
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2.4rem;
+  row-gap: 3rem;
+
+  @include a.breakpoint(lg) {
+    justify-content: space-between;
+  }
+}
+
+.card {
+  box-sizing: border-box;
+  max-width: 25rem;
+  text-align: center;
+
+  &__title {
+    margin-top: 2.4rem;
+  }
+  &__price {
+    margin-bottom: 1.6rem;
+  }
+  &__btn {
+    width: 100%;
+  }
+}
