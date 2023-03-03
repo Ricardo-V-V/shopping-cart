@@ -1,0 +1,44 @@
+@use '../abstracts' as a;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+  color: var(--primary-color);
+  font-family: var(--text-font);
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  @include a.breakpoint(lg) {
+    font-size: 1.8rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.heading-2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
+
+  @include a.breakpoint(lg) {
+    font-size: 4.8rem;
+  }
+}
+
+.heading-3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+
+  @include a.breakpoint(lg) {
+    font-size: 2.4rem;
+  }
+}

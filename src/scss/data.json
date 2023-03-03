@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "kris200 purple hat",
+            "url1": "https://static.wixstatic.com/media/baac51_e0ebe39677864d7f934e2544bbf9ae19~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_e0ebe39677864d7f934e2544bbf9ae19~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_ae96d298952242c2bb5cce4abdcab7a9~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_ae96d298952242c2bb5cce4abdcab7a9~mv2_d_2000_1500_s_2.jpg",
+            "price": 25
+        },
+        {
+            "id": 2,
+            "name": "kris200 black/purple hat",
+            "url1": "https://static.wixstatic.com/media/baac51_444fa6e3add545a6b3757f46a11ee9de~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_444fa6e3add545a6b3757f46a11ee9de~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_96428f6f85de47268baeffa9258f681f~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_96428f6f85de47268baeffa9258f681f~mv2_d_2000_1500_s_2.jpg",
+            "price": 25
+        },
+        {
+            "id": 3,
+            "name": "Kris200 Raw ECT hat",
+            "url1": "https://static.wixstatic.com/media/baac51_34821e1460024305a72be06274bd65d6~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_34821e1460024305a72be06274bd65d6~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_b9031651b1e2480b80e11d455923f407~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_b9031651b1e2480b80e11d455923f407~mv2_d_2000_1500_s_2.jpg",
+            "price": 25
+        },
+        {
+            "id": 4,
+            "name": "Kris200 Paradise Hat",
+            "url1": "https://static.wixstatic.com/media/baac51_3564de284ffd41e6a9b4f3f908e3003a~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_3564de284ffd41e6a9b4f3f908e3003a~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_09cf1d76e0dc44c4a7b5b71ccfd7c597~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_09cf1d76e0dc44c4a7b5b71ccfd7c597~mv2_d_2000_1500_s_2.jpg",
+            "price": 25
+        },
+        {
+            "id": 5,
+            "name": "Kris200 Purple/blue",
+            "url1": "https://static.wixstatic.com/media/baac51_b0b367782959434382f77ba6947792ea~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_b0b367782959434382f77ba6947792ea~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_6b27b52f603e464aa0cd8790f03c22f0~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_6b27b52f603e464aa0cd8790f03c22f0~mv2_d_2000_1500_s_2.jpg",
+            "price": 20
+        },
+        {
+            "id": 6,
+            "name": "kris200 NGUP hat",
+            "url1": "https://static.wixstatic.com/media/baac51_765ee8d8af0242ef9a28d7f15b982643~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_765ee8d8af0242ef9a28d7f15b982643~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_f4267061a0fe4bb1acee7156275d4206~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_f4267061a0fe4bb1acee7156275d4206~mv2_d_2000_1500_s_2.jpg",
+            "price": 20
+        },
+        {
+            "id": 7,
+            "name": "Kris200 Joker",
+            "url1": "https://static.wixstatic.com/media/baac51_08eb214d899d45e6a204850dbe5d0e6b~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_08eb214d899d45e6a204850dbe5d0e6b~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_a6efca7b18ab4901866d336814d292fc~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_a6efca7b18ab4901866d336814d292fc~mv2_d_2000_1500_s_2.jpg",
+            "price": 30
+        },
+        {
+            "id": 8,
+            "name": "Kris200 Justin Raw ect hat",
+            "url1": "https://static.wixstatic.com/media/baac51_8916d233b97e408db6bc3089911d00fc~mv2_d_2000_1500_s_2.jpg/v1/fill/w_500,h_375,al_c,q_85,usm_0.66_1.00_0.01/baac51_8916d233b97e408db6bc3089911d00fc~mv2_d_2000_1500_s_2.webp",
+            "url2": "https://static.wixstatic.com/media/baac51_23d749587fb743859f9bb6b69a24f71e~mv2_d_2000_1500_s_2.jpg/v1/fill/w_415,h_311,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/baac51_23d749587fb743859f9bb6b69a24f71e~mv2_d_2000_1500_s_2.jpg",
+            "price": 25
+        }
+    ]
+}
