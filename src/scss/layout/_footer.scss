@@ -5,8 +5,7 @@
 
   &__nav {
     background-color: var(--color-primary);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
   }
 
   &__link {
@@ -14,8 +13,7 @@
   }
 
   &__copyright {
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
+    padding: 1.6rem 0;
     background-color: var(--color-primary-medium);
     font-size: 1.2rem;
   }

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function Header() {
+export default function Header({ count }) {
   return (
     <header className="header">
       <div className="header__promo"></div>
@@ -19,7 +19,7 @@ export default function Header() {
               alt="logo"
               className="header__icon"
             />
-            <span className="header__count">0</span>
+            <span className="header__count">{ count }</span>
           </div>
         </Link>
       </div>
