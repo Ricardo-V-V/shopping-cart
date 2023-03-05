@@ -2,6 +2,8 @@
 
 https://crisorte2006.wixsite.com/shop
 
+https://www.wix.com/website-template/view/html/2119
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
