@@ -53,7 +53,7 @@ export default function App() {
     });
   }
 
-  /* function handleRemove(id) {
+  function handleRemove(id) {
     setProductData((prev) => {
       return prev.map((product) => {
         if (product.id === id) {
@@ -66,7 +66,7 @@ export default function App() {
         }
       });
     });
-  }  */
+  }
 
   return (
     <BrowserRouter>
@@ -90,6 +90,7 @@ export default function App() {
                 subtotal={subtotal}
                 onAdd={handleAdd}
                 onSubstract={handleSubstract}
+                onRemove={handleRemove}
               />
             }
           />

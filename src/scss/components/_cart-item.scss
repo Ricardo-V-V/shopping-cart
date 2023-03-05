@@ -28,4 +28,8 @@
     display: flex;
     gap: 2.8rem;
   }
+
+  &__icon {
+    cursor: pointer;
+  }
 }

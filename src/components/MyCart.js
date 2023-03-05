@@ -1,6 +1,6 @@
 import CartItem from './CartItem';
 
-export default function MyCart({ cartList, onAdd, onSubstract }) {
+export default function MyCart({ cartList, onAdd, onSubstract, onRemove }) {
   const itemsList = cartList.map((product) => {
     return (
       <CartItem
@@ -8,6 +8,7 @@ export default function MyCart({ cartList, onAdd, onSubstract }) {
         {...product}
         onAdd={onAdd}
         onSubstract={onSubstract}
+        onRemove={onRemove}
       />
     );
   });

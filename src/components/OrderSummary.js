@@ -1,3 +1,5 @@
+import BagIcon from '../icons/BagIcon';
+
 export default function OrderSummary({ subtotal }) {
   return (
     <div className="cart__summary">
@@ -6,7 +8,11 @@ export default function OrderSummary({ subtotal }) {
         <span>Subtotal</span>
         <span>${subtotal}</span>
       </div>
-      <button className="btn btn--primary">Checkout</button>
+
+      <div className="btn btn--primary btn--checkout">
+        <BagIcon />
+        <div>Checkout</div>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import CartCounter from './CartCounter';
+import XIcon from '../icons/XIcon';
 
 export default function CartItem({
   id,
@@ -8,6 +9,7 @@ export default function CartItem({
   buyQty,
   onAdd,
   onSubstract,
+  onRemove,
 }) {
   return (
     <div className="cart-item">
@@ -27,7 +29,9 @@ export default function CartItem({
       </div>
       <div className="cart-item__subtotal">
         <span>{buyQty * price}</span>
-        <span>X</span>
+        <span className="cart-item__icon" onClick={() => onRemove(id)}>
+          <XIcon />
+        </span>
       </div>
     </div>
   );
