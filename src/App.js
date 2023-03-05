@@ -6,6 +6,7 @@ import Home from './Home';
 import Cart from './Cart';
 import SharedLayout from './components/SharedLayout';
 import data from './data.json';
+import ErrorPage from './ErrorPage';
 
 export default function App() {
   const [productData, setProductData] = useState(data.products);
@@ -94,6 +95,7 @@ export default function App() {
               />
             }
           />
+          <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

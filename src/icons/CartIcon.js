@@ -8,8 +8,8 @@ export default function CartIcon() {
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
-      strokeLineCap="round"
-      strokeLineJoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       className="icon"
     >
       <circle cx="9" cy="21" r="1"></circle>

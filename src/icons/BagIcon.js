@@ -8,9 +8,9 @@ export default function BagIcon() {
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
-      strokeLineCap="round"
-      strokeLineJoin="round"
-      class="icon--bag"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon--bag"
     >
       <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
       <line x1="3" y1="6" x2="21" y2="6"></line>

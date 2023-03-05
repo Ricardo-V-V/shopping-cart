@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Header from './components/Header';
 
-/*test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});*/
+describe('Prueba en el <Header />', () => {
+  test('Debe de mostrar el valor inicial de 5 <Header count={5}/>', () => {
+    const count = 5;
+    render(<Header count={count} />);
+    expect(screen.getByText(5)).toBeTruthy();
+  });
+});
