@@ -15,11 +15,11 @@ https://create-react-app.dev/
 
 ### Dev Dependencies
 
-"eslint-config-prettier": "^8.6.0",
-"prettier": "2.8.4",
-"jest": "^27.5.1",
-"react-router-dom": "^6.8.2",
-"sass": "^1.58.3"
+- "eslint-config-prettier": "^8.6.0",
+- "prettier": "2.8.4",
+- "jest": "^27.5.1",
+- "react-router-dom": "^6.8.2",
+- "sass": "^1.58.3"
 
 ## Setup
 
